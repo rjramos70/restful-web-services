@@ -26,6 +26,7 @@ public class FilteringController {
 		return mapping;
 	}
 	
+	
 	@GetMapping(path = "/filtering-list")
 	public MappingJacksonValue retrieveListOfSomeBeans() {
 		List<SomeBean> list = Arrays.asList(new SomeBean("value1", "value2", "value3"), 
