@@ -87,7 +87,13 @@
 			<version>3.1.10.RELEASE</version>
 		</dependency>
 
-
+		<!-- Implementa segurança para acesso as APIs -->
+		<!-- 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		 -->
 
 	</dependencies>
 
